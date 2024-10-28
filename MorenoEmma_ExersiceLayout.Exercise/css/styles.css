@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+/* the astirid at the top is for all the conect of an html doc */
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: rgb(14, 133, 133);
+  font-size: 2.6rem;
+  background-color: burlywood;
+  text-align: center;
+  width: 20rem;
+  padding: 1.5rem;
+  border: 0.3rem solid rgb(158, 99, 23);
+  margin: 1.5rem auto;
+  box-shadow: 0.6rem 0.6rem 0.6rem aqua;
+  text-shadow: 0.3rem 0.3rem 0.3rem aqua;
+  border-radius: 1rem;
+  align-items: center;
+}
+/* will need to practice more with border radius to fully understand it along with text shadow to control the spill of color */
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: rgb(14, 133, 133);
+  background-color: rgb(38, 126, 126);
+  text-align: center;
+  width: 20rem;
+  text-decoration: none;
+  text-wrap: balance;
+  background-color: burlywood;
+  padding: 1.2rem;
+  border: 0.3rem solid rgb(158, 99, 23);
+  margin: auto;
+  box-shadow: 0.6rem 0.6rem 0.6rem aqua;
+  text-shadow: 0.6rem 0.6rem 0.6rem aqua;
+  border-radius: 1rem;
+}
+/* each chunk of section is divided by their heading, body and navigation menu, this way different elements can get modified */
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: rgb(14, 133, 133);
+  font-size: 2rem;
+  text-align: center;
+  width: 300px;
+  text-decoration: none;
+  background-color: burlywood;
+  padding: 1.25rem;
+  border: 0.3rem solid rgb(158, 99, 23);
+  margin: auto;
+  box-sizing: content-box;
+  box-shadow: 0.6rem 0.6rem 0.6rem aqua;
+  text-shadow: 0.6rem 0.6rem 0.6rem aqua;
+  border-radius: 1rem;
+}
+/* to group elements to have the same style just mount them on top of each other. Example: 
+h1,
+p,
+nav,
+{ 
+font-family: helvetica color blue
+}
+this way everything in that list gets the same style. Must figure out about the weird color around h3 topic pediatric and how it came to be.*/
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(30, 126, 54);
+  padding: 1.2rem;
+  background-color: rgb(187, 118, 118);
+}
+/*`in body element background color can be addes so the entire pade is in color*/
+#wrapper {
+  width: 90%;
+  border: 0.3rem solid rgb(159, 99, 23);
+  margin: auto;
+}
+/* Wrapper element helps encase evething together and in one go by having the div element id in it */
+a {
+  text-decoration: none;
+  border-radius: 1.5rem;
+  border: 1.5rem;
+}
+
+p {
+  border-radius: 0.3rem;
+  border: 0.2rem solid rgb(158, 99, 23);
+}
+
+a:hover {
+  color: coral;
+}
+
+nav ul {
+  list-style: armenian;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+  height: 3.7rem;
+  border-radius: 1.5rem;
+}
+
+nav li {
+  border: 2px solid rgb(189, 117, 23);
+  flex: 1;
+}
+img {
+  display: block;
+  margin: auto;
+}
