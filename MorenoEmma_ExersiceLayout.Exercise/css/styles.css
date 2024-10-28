@@ -29,7 +29,7 @@ h2 {
   text-decoration: none;
   text-wrap: balance;
   background-color: burlywood;
-  padding: 1.2rem;
+  padding: 0rem;
   border: 0.3rem solid rgb(158, 99, 23);
   margin: auto;
   box-shadow: 0.6rem 0.6rem 0.6rem aqua;
@@ -46,7 +46,7 @@ h3 {
   width: 300px;
   text-decoration: none;
   background-color: burlywood;
-  padding: 1.25rem;
+  padding: 0rem;
   border: 0.3rem solid rgb(158, 99, 23);
   margin: auto;
   box-sizing: content-box;
@@ -93,7 +93,7 @@ a:hover {
 nav ul {
   list-style: armenian;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   gap: 0.3rem;
@@ -109,4 +109,59 @@ nav li {
 img {
   display: block;
   margin: auto;
+}
+
+/*form styles, styling certain parts */
+form {
+  border: 2px solid rgb(250, 244, 244);
+  padding: 1rem;
+  background-color: coral;
+}
+form > div {
+  margin-bottom: 1rem;
+  border: 1rem;
+  background-color: coral;
+}
+
+label {
+  display: block;
+  margin: 0.5rem;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 1.5rem;
+}
+
+input[type="message"] {
+  display: block;
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 0.6rem;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+}
+
+#form-checkbox > label {
+  display: inline-block;
+}
+
+button {
+  background-color: rgb(146, 110, 110);
+  color: aliceblue;
+  border: none;
+  padding: 0.383rem 0.3rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(210, 106, 69);
 }

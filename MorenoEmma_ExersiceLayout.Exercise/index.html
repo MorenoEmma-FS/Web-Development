@@ -11,6 +11,23 @@
     <div id="wrapper">
       <!-- head elements only apply to meta elements. NOT THE ENTIRE HTML DOC-->
       <header>
+        <form>
+          <div>
+            <label for="Username">Username</label>
+            <input type="text" id="Username" required />
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" required />
+          </div>
+          <div id="form-checkbox">
+            <input type="checkbox" id="stay" />
+            <label for="stay">Stay logged in</label>
+          </div>
+          <div>
+            <button type="submit" value="Login">Login</button>
+          </div>
+        </form>
         <h1>Cardiology</h1>
         <nav>
           <ul>
@@ -23,6 +40,7 @@
             </li>
             <li><a href="#theheart">The Heart</a></li>
             <li><a href="#heartdisorders">Heart Disorders</a></li>
+            <li><a href="#contactus">Contact Us</a></li>
             <li>
               <a
                 href="https://en.wikipedia.org/wiki/Cardiology"
@@ -497,14 +515,35 @@
           of the population globally.[66] In 2010, hypertension was believed to
           have been a factor in 18% (9.4 million) deaths.[76]
         </p>
+        <h2 id="contactus">Contact Us</h2>
+        <form>
+          <div>
+            <input type="text" id="fname" required />
+            <label for="fname">First Name</label>
+          </div>
+          <div>
+            <input type="text" id="lname" required />
+            <label for="lname">Last Name</label>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" required />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" cols="30" rows="10" required></textarea>
+          </div>
+          <button type="submit">Send</button>
+        </form>
       </section>
     </div>
+    <!-- Each type of em abbreviation has to be followed by their corresponding abbreviation from open to close in order to be verifiable. -->
+    <footer>
+      <!-- ned to find out why there is a stray tag footer when code has been closed.-->
+      <p>Copyright of wikipedia</p>
+    </footer>
+    <!-- Although we just starting learning, how to build an HTML document and it seems both confusing and irritating to get the hang of, you will always need the basics to formulate an idea to reality. Keep going, and practice as much as you can, ask questions if you need to and do independent search to understand better. -->
+    <!-- when using footer elements its to signify the souce of the information obtained. All previous elemts must be closed in order to HTML to be verified.-->
+    <script src="js/main.js"></script>
   </body>
-  <!-- Each type of em abbreviation has to be followed by their corresponding abbreviation from open to close in order to be verifiable. -->
-  <footer>
-    <!-- ned to find out why there is a stray tag footer when code has been closed.-->
-    <p>Copyright of wikipedia</p>
-  </footer>
-  <!-- Although we just starting learning, how to build an HTML document and it seems both confusing and irritating to get the hang of, you will always need the basics to formulate an idea to reality. Keep going, and practice as much as you can, ask questions if you need to and do independent search to understand better. -->
-  <!-- when using footer elements its to signify the souce of the information obtained. All previous elemts must be closed in order to HTML to be verified.-->
 </html>
